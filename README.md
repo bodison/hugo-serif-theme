@@ -97,7 +97,7 @@ Copy the entire contents of the `mynewsite/themes/hugo-serif-theme/exampleSite/`
 cp -a themes/hugo-serif-theme/exampleSite/. .
 ```
 
-**5. Run Hugo**
+**5. Delete hugo.toml**
 
 Delete `hugo.toml` from your root folder (so we use `config.toml`). make sure you are still in the projects root, ie the `mynewsite` folder.
 
