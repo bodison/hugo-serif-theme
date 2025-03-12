@@ -99,6 +99,14 @@ cp -a themes/hugo-serif-theme/exampleSite/. .
 
 **5. Run Hugo**
 
+Delete `hugo.toml` from your root folder (so we use `config.toml`). make sure you are still in the projects root, ie the `mynewsite` folder.
+
+```
+rm hugo.toml
+```
+
+**6. Run Hugo**
+
 After installing the theme for the first time, generate the Hugo site.
 
 You run this command from the root folder of your Hugo site ie `mynewsite/`
